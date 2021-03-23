@@ -101,6 +101,7 @@ class CadCurriculoTeste extends TPage
             $object->fromArray((array) $data); // load the object with data
             $object->ip = $_SERVER['REMOTE_ADDR'];
             $object->data_hora = date('d/m/Y H:i:s');
+            $object->data_hora_envio = date('d/m/Y H:i:s');
             $object->store(); // save the object
 
             $this->onEnvEmail($param);
