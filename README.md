@@ -10,3 +10,4 @@ Utilizado o Framework Aditanti
 
 Bando de dados SQLIte app/databse/base.db
 
+Configurações de SMTP em app/config/application.ini
